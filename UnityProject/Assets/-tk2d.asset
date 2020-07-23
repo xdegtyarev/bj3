@@ -1,0 +1,135 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 41cb500cf0f58e74f9a52a8af931edde, type: 3}
+  m_Name: -tk2d
+  version: 3
+  spriteAnimationIndex:
+  - assetGUID: 8fade659a6a3c4fe8b9ef4620e84c021
+    dataGUID: 
+    managed: 0
+    loadable: 0
+  fontIndex:
+  - assetGUID: 9bcb927e0b6fa48738468bdbbb3237d2
+    dataGUID: 5ac0f426c0764474790a01fa75f5341d
+    managed: 0
+    loadable: 0
+  spriteCollectionIndex:
+  - name: HeroCollection
+    spriteCollectionGUID: d3a40592ac76141aabacc5952d0bb9b8
+    spriteCollectionDataGUID: de41897490b144814ba9df00a342e08b
+    spriteNames:
+    - oldman_walk__0000s_0001_2
+    - oldman_walk__0000s_0003_4
+    - oldman_walk__0000s_0004_5
+    - oldman_walk__0000s_0006_7
+    - oldman_walk__0000s_0002_3
+    - oldman_walk__0000s_0005_6
+    - oldman_walk__0000s_0000_1
+    - oldman_walk__0000s_0008_9
+    - oldman_walk__0000s_0007_8
+    spriteTextureGUIDs:
+    - 004a26bb36f9b4ff897ec8babcb25297
+    - 090e18721b76648b79fec821eefd04fc
+    - 52ddd074cc93740d28fa72554d275141
+    - 67b41960f8eea4d60a1c0b1a435336e5
+    - 887c3b93c439340738634a608c9d334c
+    - 89bedb9b9ab364b78aa591af01d448bd
+    - c409b9fd2f402474299906c98d89cb7d
+    - dd3fdb1771f284972a3edbad6db25dab
+    - f4a5ff5ab444441e192328142658007a
+    spriteTextureTimeStamps:
+    - 1371832443
+    - 1371832445
+    - 1371832447
+    - 1371832449
+    - 1371832444
+    - 1371832448
+    - 1371832442
+    - 1371832452
+    - 1371832450
+    managedSpriteCollection: 0
+    loadable: 0
+    assetName: 
+    version: 3
+  - name: Scene1Collection
+    spriteCollectionGUID: dada3c98d92fe49f994f5d0feef920d0
+    spriteCollectionDataGUID: 2ac5fbc99182f45c59fc17324f165873
+    spriteNames:
+    - Back
+    - Moon
+    - LowTrees
+    - Scene
+    - HighTrees
+    - background
+    spriteTextureGUIDs:
+    - 3617351d8fc15445d9ead2e5fd4b83a2
+    - 92ebec709680e4c11b0941f67c7225fb
+    - b418cd41843d14d0c8964f6691c8dcf6
+    - cb9cfda432b5b42c99a2740bb3177529
+    - fa3c26efccdd54c43a011569f66e1cbd
+    - 98855c348a15b48309ae2342ed087fc2
+    spriteTextureTimeStamps:
+    - 1370800067
+    - 1370800104
+    - 1370800189
+    - 1370800278
+    - 1370800166
+    - 1370801372
+    managedSpriteCollection: 0
+    loadable: 0
+    assetName: 
+    version: 3
+  - name: HouseSceneCollection
+    spriteCollectionGUID: ed300c24540844b07a25385ed0365368
+    spriteCollectionDataGUID: e5001c7923df74b9d969580aaa1e34ad
+    spriteNames:
+    - FloorsAndDoors
+    - Scarf
+    - Back
+    - Hanger
+    - Wardrobe
+    - Pixel
+    - Switch
+    - Stove
+    - Closet
+    - Front
+    - Keetle
+    - Door
+    spriteTextureGUIDs:
+    - 0c4d650bb4cdb463a993920b82c21b54
+    - 0e8c0d77d87294a758c86e6dc99514df
+    - 1425afb8fd7044990bb903111114f305
+    - 2fc98fd22c95c4c5784b0889390f90b1
+    - 34632c532172e4915b7e5565baec9695
+    - 1e6f6fd0b96f54f988760a36c30aa0a4
+    - 53cf414e39cd24adbaf2f30f997e7544
+    - 5ea8efad6ec3a4c02a66c0c5179c106a
+    - 74fb8c1fffe3a4227a86a1784a064201
+    - acae7524980ad42d7a197bbbcd6f6665
+    - b09429a1dc12b4c6cbc42f287eba5e14
+    - f054916a489374bc29e16773ef6b0cca
+    spriteTextureTimeStamps:
+    - 1372199166
+    - 1372199164
+    - 1372199167
+    - 1372199164
+    - 1372199163
+    - 1372200705
+    - 1372199161
+    - 1372199163
+    - 1372199165
+    - 1372199161
+    - 1372199162
+    - 1372199165
+    managedSpriteCollection: 0
+    loadable: 0
+    assetName: 
+    version: 3

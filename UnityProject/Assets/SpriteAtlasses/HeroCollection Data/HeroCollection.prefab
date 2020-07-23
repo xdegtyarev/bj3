@@ -1,0 +1,407 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &100000
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 400000}
+  - 114: {fileID: 11400000}
+  m_Layer: 0
+  m_Name: HeroCollection
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &400000
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d546f34a90531a14eaba82a43b05b86b, type: 3}
+  m_Name: 
+  version: 3
+  materialIdsValid: 1
+  needMaterialInstance: 0
+  spriteDefinitions:
+  - name: oldman_walk__0000s_0001_2
+    boundsData:
+    - {x: .499999046, y: -3.5, z: 0}
+    - {x: 43, y: 69, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 0, z: 0}
+    - {x: 80, y: 76, z: 0}
+    texelSize: {x: 1, y: 1}
+    positions:
+    - {x: -21, y: -38, z: 0}
+    - {x: 21.9999981, y: -38, z: 0}
+    - {x: -21, y: 31, z: 0}
+    - {x: 21.9999981, y: 31, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: .570320308, y: 3.90625019e-06}
+    - {x: .906242192, y: 3.90625019e-06}
+    - {x: .570320308, y: .269527346}
+    - {x: .906242192, y: .269527346}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: 798d4e76eea654d4082c2f5eec19c571, type: 2}
+    materialId: 0
+    sourceTextureGUID: 004a26bb36f9b4ff897ec8babcb25297
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    colliderType: 0
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+  - name: oldman_walk__0000s_0003_4
+    boundsData:
+    - {x: 2.99999952, y: -4.00000095, z: 0}
+    - {x: 37.9999962, y: 68, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 0, z: 0}
+    - {x: 80, y: 76, z: 0}
+    texelSize: {x: 1, y: 1}
+    positions:
+    - {x: -15.999999, y: -38, z: 0}
+    - {x: 21.9999981, y: -38, z: 0}
+    - {x: -15.999999, y: 29.9999981, z: 0}
+    - {x: 21.9999981, y: 29.9999981, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 7.81250037e-06, y: .792972684}
+    - {x: 7.81250037e-06, y: .941402316}
+    - {x: .531242192, y: .792972684}
+    - {x: .531242192, y: .941402316}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: 798d4e76eea654d4082c2f5eec19c571, type: 2}
+    materialId: 0
+    sourceTextureGUID: 090e18721b76648b79fec821eefd04fc
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 1
+    complexGeometry: 0
+    colliderType: 0
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+  - name: oldman_walk__0000s_0004_5
+    boundsData:
+    - {x: 2.50000048, y: -3, z: 0}
+    - {x: 37, y: 70, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 0, z: 0}
+    - {x: 80, y: 76, z: 0}
+    texelSize: {x: 1, y: 1}
+    positions:
+    - {x: -15.999999, y: -38, z: 0}
+    - {x: 21, y: -38, z: 0}
+    - {x: -15.999999, y: 32, z: 0}
+    - {x: 21, y: 32, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 7.81250037e-06, y: .519535184}
+    - {x: .289054692, y: .519535184}
+    - {x: 7.81250037e-06, y: .792964816}
+    - {x: .289054692, y: .792964816}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: 798d4e76eea654d4082c2f5eec19c571, type: 2}
+    materialId: 0
+    sourceTextureGUID: 52ddd074cc93740d28fa72554d275141
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    colliderType: 0
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+  - name: oldman_walk__0000s_0006_7
+    boundsData:
+    - {x: 1.99999905, y: -2.5, z: 0}
+    - {x: 40, y: 71, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 0, z: 0}
+    - {x: 80, y: 76, z: 0}
+    texelSize: {x: 1, y: 1}
+    positions:
+    - {x: -18, y: -38, z: 0}
+    - {x: 21.9999981, y: -38, z: 0}
+    - {x: -18, y: 33, z: 0}
+    - {x: 21.9999981, y: 33, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: .539070308, y: .269535154}
+    - {x: .851554692, y: .269535154}
+    - {x: .539070308, y: .546871066}
+    - {x: .851554692, y: .546871066}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: 798d4e76eea654d4082c2f5eec19c571, type: 2}
+    materialId: 0
+    sourceTextureGUID: 67b41960f8eea4d60a1c0b1a435336e5
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    colliderType: 0
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+  - name: oldman_walk__0000s_0002_3
+    boundsData:
+    - {x: .999999046, y: -4.50000095, z: 0}
+    - {x: 42, y: 67, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 0, z: 0}
+    - {x: 80, y: 76, z: 0}
+    texelSize: {x: 1, y: 1}
+    positions:
+    - {x: -20, y: -38, z: 0}
+    - {x: 21.9999981, y: -38, z: 0}
+    - {x: -20, y: 28.9999981, z: 0}
+    - {x: 21.9999981, y: 28.9999981, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 7.81250037e-06, y: .355472654}
+    - {x: 7.81250037e-06, y: .519527316}
+    - {x: .523429692, y: .355472654}
+    - {x: .523429692, y: .519527316}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: 798d4e76eea654d4082c2f5eec19c571, type: 2}
+    materialId: 0
+    sourceTextureGUID: 887c3b93c439340738634a608c9d334c
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 1
+    complexGeometry: 0
+    colliderType: 0
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+  - name: oldman_walk__0000s_0005_6
+    boundsData:
+    - {x: 1, y: -1.50000191, z: 0}
+    - {x: 48, y: 73, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 0, z: 0}
+    - {x: 80, y: 76, z: 0}
+    texelSize: {x: 1, y: 1}
+    positions:
+    - {x: -23, y: -38, z: 0}
+    - {x: 25, y: -38, z: 0}
+    - {x: -23, y: 34.9999962, z: 0}
+    - {x: 25, y: 34.9999962, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 7.81250037e-06, y: 3.90625019e-06}
+    - {x: 7.81250037e-06, y: .187496096}
+    - {x: .570304692, y: 3.90625019e-06}
+    - {x: .570304692, y: .187496096}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: 798d4e76eea654d4082c2f5eec19c571, type: 2}
+    materialId: 0
+    sourceTextureGUID: 89bedb9b9ab364b78aa591af01d448bd
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 1
+    complexGeometry: 0
+    colliderType: 0
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+  - name: oldman_walk__0000s_0000_1
+    boundsData:
+    - {x: .499999046, y: -3.5, z: 0}
+    - {x: 43, y: 69, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 0, z: 0}
+    - {x: 80, y: 76, z: 0}
+    texelSize: {x: 1, y: 1}
+    positions:
+    - {x: -21, y: -38, z: 0}
+    - {x: 21.9999981, y: -38, z: 0}
+    - {x: -21, y: 31, z: 0}
+    - {x: 21.9999981, y: 31, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 7.81250037e-06, y: .187503904}
+    - {x: 7.81250037e-06, y: .355464846}
+    - {x: .539054692, y: .187503904}
+    - {x: .539054692, y: .355464846}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: 798d4e76eea654d4082c2f5eec19c571, type: 2}
+    materialId: 0
+    sourceTextureGUID: c409b9fd2f402474299906c98d89cb7d
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 1
+    complexGeometry: 0
+    colliderType: 0
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+  - name: oldman_walk__0000s_0008_9
+    boundsData:
+    - {x: 2.50000048, y: -3.5, z: 0}
+    - {x: 37, y: 69, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 0, z: 0}
+    - {x: 80, y: 76, z: 0}
+    texelSize: {x: 1, y: 1}
+    positions:
+    - {x: -15.999999, y: -38, z: 0}
+    - {x: 21, y: -38, z: 0}
+    - {x: -15.999999, y: 31, z: 0}
+    - {x: 21, y: 31, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: .289070308, y: .546878934}
+    - {x: .289070308, y: .691402316}
+    - {x: .828117192, y: .546878934}
+    - {x: .828117192, y: .691402316}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: 798d4e76eea654d4082c2f5eec19c571, type: 2}
+    materialId: 0
+    sourceTextureGUID: dd3fdb1771f284972a3edbad6db25dab
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 1
+    complexGeometry: 0
+    colliderType: 0
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+  - name: oldman_walk__0000s_0007_8
+    boundsData:
+    - {x: 2.5, y: -3, z: 0}
+    - {x: 35, y: 68, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 0, z: 0}
+    - {x: 80, y: 76, z: 0}
+    texelSize: {x: 1, y: 1}
+    positions:
+    - {x: -15, y: -37, z: 0}
+    - {x: 20, y: -37, z: 0}
+    - {x: -15, y: 31, z: 0}
+    - {x: 20, y: 31, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: .531257808, y: .691410184}
+    - {x: .804679692, y: .691410184}
+    - {x: .531257808, y: .957027316}
+    - {x: .804679692, y: .957027316}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: 798d4e76eea654d4082c2f5eec19c571, type: 2}
+    materialId: 0
+    sourceTextureGUID: f4a5ff5ab444441e192328142658007a
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    colliderType: 0
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+  premultipliedAlpha: 0
+  material: {fileID: 0}
+  materials:
+  - {fileID: 2100000, guid: 798d4e76eea654d4082c2f5eec19c571, type: 2}
+  textures:
+  - {fileID: 2800000, guid: d8f5f14b14a674c6581f88682fd75b4b, type: 3}
+  allowMultipleAtlases: 0
+  spriteCollectionGUID: d3a40592ac76141aabacc5952d0bb9b8
+  spriteCollectionName: HeroCollection
+  assetName: 
+  loadable: 0
+  invOrthoSize: 1
+  halfTargetHeight: 1
+  buildKey: 1432653984
+  dataGuid: de41897490b144814ba9df00a342e08b
+  managedSpriteCollection: 0
+  hasPlatformData: 0
+  spriteCollectionPlatforms: []
+  spriteCollectionPlatformGUIDs: []
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 100000}
+  m_IsPrefabParent: 1
+  m_IsExploded: 1
